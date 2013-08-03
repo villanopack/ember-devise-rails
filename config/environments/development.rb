@@ -51,4 +51,6 @@ EmberDeviseRails::Application.configure do
     password: ENV["GMAIL_PASSWORD"]
   }
 
+  config.ember.variant = :development
+
 end

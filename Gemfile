@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+#ruby '1.9.3'
 gem 'rails', '3.2.13'
 gem 'sqlite3'
 group :assets do
@@ -11,6 +11,9 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'figaro'
 gem 'haml-rails'
+gem 'ember-rails'
+gem 'ember-source', '1.0.0.rc6.2'
+gem 'active_model_serializers'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]
