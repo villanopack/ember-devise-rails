@@ -1,0 +1,5 @@
+{{#if App.Auth.signedIn}}
+  <h1>Estas dentro</h1>
+{{else}}
+  {{ view App.AuthSignInView }}
+{{/if}}
